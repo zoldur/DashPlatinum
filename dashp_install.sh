@@ -9,8 +9,8 @@ COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/dashplatinum/dashplatinum/releases/download/0.12.2.3.2/DashPlatinum2-0.12.2.3-4-linux64.tgz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='Dashp'
-COIN_PORT=7878
-RPC_PORT=7877
+COIN_PORT=7978
+RPC_PORT=7977
 
 NODEIP=$(curl -s4 icanhazip.com)
 
