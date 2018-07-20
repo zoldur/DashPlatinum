@@ -2,7 +2,7 @@
 
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='dashp.conf'
-CONFIGFOLDER='/root/.dashplatinum/'
+CONFIGFOLDER='/root/.dashplatinum2'
 COIN_DAEMON='dashpd'
 COIN_CLI='dashp-cli'
 COIN_PATH='/usr/local/bin/'
